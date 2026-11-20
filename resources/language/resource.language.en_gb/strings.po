@@ -1,0 +1,249 @@
+# Kodi Media Center language file
+# Addon Name: Catchup Download
+# Addon id: script.catchup.download
+# Addon Provider: kontell
+msgid ""
+msgstr ""
+"Project-Id-Version: script.catchup.download\n"
+"Report-Msgid-Bugs-To: https://github.com/kontell/script.catchup.download/issues\n"
+"POT-Creation-Date: 2026-11-16\n"
+"PO-Revision-Date: 2026-11-16\n"
+"Last-Translator: kontell\n"
+"Language-Team: English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Sign-in, as in plugin.video.kofin (same ids)
+
+msgctxt "#30011"
+msgid "Quick Connect"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Username and password"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Username"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Password"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Enter code [B]%s[/B] in the Jellyfin app or web interface."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Logged in as %s"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Login failed: wrong username or password"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Server unreachable"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Log out from %s?"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Logged out"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Session rejected — log in again in the add-on's settings"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Quick Connect timed out"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Already logged in"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Not logged in"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Log in to %s"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Account"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Connect to the Jellyfin server that saves the programmes."
+msgstr ""
+
+msgctxt "#30052"
+msgid "Server address"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Host name, IP address or full URL of the Jellyfin server. A bare host uses http on port 8096."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Log in…"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Connect to the server above using Quick Connect or a username and password. The user needs permission to manage live TV recordings."
+msgstr ""
+
+msgctxt "#30056"
+msgid "Server"
+msgstr ""
+
+msgctxt "#30057"
+msgid "The connected Jellyfin server."
+msgstr ""
+
+msgctxt "#30058"
+msgid "Logged-in user"
+msgstr ""
+
+msgctxt "#30059"
+msgid "The Jellyfin user the programmes are saved as."
+msgstr ""
+
+msgctxt "#30062"
+msgid "Log out"
+msgstr ""
+
+msgctxt "#30063"
+msgid "End the session on the server and forget it on this device. The server address is kept."
+msgstr ""
+
+msgctxt "#30821"
+msgid "Server error — %s"
+msgstr ""
+
+msgctxt "#30825"
+msgid "Find servers on local network"
+msgstr ""
+
+msgctxt "#30826"
+msgid "Looks for Jellyfin servers on this network and lists the ones that answer. The one you choose is filled into \"Server address\"."
+msgstr ""
+
+msgctxt "#30827"
+msgid "Searching for Jellyfin servers…"
+msgstr ""
+
+msgctxt "#30828"
+msgid "Select a server"
+msgstr ""
+
+msgctxt "#30829"
+msgid "No Jellyfin servers answered — enter the address manually"
+msgstr ""
+
+msgctxt "#30830"
+msgid "did not answer"
+msgstr ""
+
+msgctxt "#30831"
+msgid "%s did not answer — the address it gave may not work here"
+msgstr ""
+
+# Saving programmes
+
+msgctxt "#30100"
+msgid "Save to recordings"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Save it from the catchup archive?"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Queued: %s"
+msgstr ""
+
+msgctxt "#30103"
+msgid "This programme has not finished yet"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Could not read this programme from the guide"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Log in to a Jellyfin server in the add-on's settings first"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Not saved: %s"
+msgstr ""
+
+msgctxt "#30107"
+msgid "The server does not offer catchup downloads (it needs Comseg with catchup on)"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Your Jellyfin user may not manage recordings"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Already queued: %s"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Recording"
+msgstr ""
+
+msgctxt "#30121"
+msgid "How much to save around the guide's times, and the server's downloads."
+msgstr ""
+
+msgctxt "#30122"
+msgid "Start early (minutes)"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Minutes saved before the programme's start in the guide."
+msgstr ""
+
+msgctxt "#30124"
+msgid "Finish late (minutes)"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Minutes saved after the programme's end in the guide, for programmes that overrun."
+msgstr ""
+
+msgctxt "#30126"
+msgid "Show downloads"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Lists the server's catchup downloads of the last day, and cancels one that is still running."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Catchup downloads"
+msgstr ""
+
+msgctxt "#30129"
+msgid "No downloads in the last day"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Cancel the download of %s?"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Cancelled"
+msgstr ""

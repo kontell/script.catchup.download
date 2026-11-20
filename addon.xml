@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.catchup.download" name="Catchup Download" version="0.1.0" provider-name="kontell">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <!-- On every programme in the TV guide, whichever PVR client lists it.
+       Guide items have pvr://guide/<epg id>/<start, UTC>.epg paths
+       (CPVREpgGuidePath); the script refuses a programme that has not
+       finished. -->
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="context.py">
+        <label>30100</label>
+        <visible>String.StartsWith(ListItem.FileNameAndPath,pvr://guide/)</visible>
+      </item>
+    </menu>
+  </extension>
+  <!-- The settings buttons: find servers, log in, log out, downloads. -->
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Save a past programme from the TV guide into the Jellyfin server's recordings</summary>
+    <description lang="en_GB">Adds "Save to recordings" to the context menu of finished programmes in the TV guide. The Jellyfin server copies the programme from the IPTV provider's catchup archive into its recordings, with its description and a poster, and Comseg marks its commercial breaks. Needs a Jellyfin server running the Comseg plugin with catchup on, and an M3U tuner whose provider keeps a Flussonic-style archive.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <source>https://github.com/kontell/script.catchup.download</source>
+    <news>v0.1.0
+- First version: "Save to recordings" on finished guide programmes, sign-in like Kofin's, and a list of the server's downloads.</news>
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+  </extension>
+</addon>
